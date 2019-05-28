@@ -1,0 +1,19 @@
+{
+  "name": "wpscholar/wp-structured-video-data",
+  "description": "Structured data for video embeds in WordPress.",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Micah Wood",
+      "email": "micah@wpscholar.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "bootstrap.php"
+    ],
+    "psr-4": {
+      "wpscholar\\WordPress\\": ""
+    }
+  }
+}
